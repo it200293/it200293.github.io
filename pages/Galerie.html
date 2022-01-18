@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Galerie</title>
+    <script src="../script/scriptfile.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="../css/style (2).css">
+</head>
+
+</style>
+</head>
+
+<body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="../index.html">Home</a>
+        <a href="Uebersicht.html">Übersicht</a>
+        <a href="Dagestanische_Kueche.html">Dagestanische Küche</a>
+    </div>
+
+    <div id="main">
+        <span style="font-size:30px;cursor:pointer; color: white" onclick="openNav()">&#9776</span>
+    </div>
+
+    <header>
+        <h1>Dagestan - Land of mountains</h1>
+        <h4>The beauty of Dagestan's nature</h4>
+    </header>
+    <div id="slideShow">
+        <img id="outerLeftImg" src="..//images/bild1.jpg" alt="bild1">
+        <img id="innerLeftImg" src="../images/bild2.jpg" alt="bild2">
+        <img id="mainImg" src="../images/bild3.jpg" alt="bild3">
+        <img id="innerRigthImg" src="../images/bild4.jpg" alt="bild3">
+        <img id="outerRigthImg" src="../images/bild5.jpg" alt="bild5">
+    </div>
+    <a class="prev" onclick="prevImg()">&#10094;</a>
+    <a class="next" onclick="nextImg()">&#10095;</a>
+</body>
+
+</html>
